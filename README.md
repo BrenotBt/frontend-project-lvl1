@@ -6,3 +6,6 @@ Frontend Level 1
 
 ## Brain Even
 [![asciicast](https://asciinema.org/a/vGp3YTVwFTsRIo3uz9AjO86Lj.svg)](https://asciinema.org/a/vGp3YTVwFTsRIo3uz9AjO86Lj)
+
+## Brain Calc
+[![asciicast](https://asciinema.org/a/2sHKrASGmCShoYKN9WQStId62.svg)](https://asciinema.org/a/2sHKrASGmCShoYKN9WQStId62)
