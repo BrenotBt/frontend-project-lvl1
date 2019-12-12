@@ -5,4 +5,4 @@ Frontend Level 1
 [![Build Status](https://travis-ci.org/BrenotBt/frontend-project-lvl1.svg?branch=master)](https://travis-ci.org/BrenotBt/frontend-project-lvl1)
 
 ## Brain Even
-[![asciicast](https://asciinema.org/a/vGp3YTVwFTsRIo3uz9AjO86Lj)](https://asciinema.org/a/vGp3YTVwFTsRIo3uz9AjO86Lj)
+[![asciicast](https://asciinema.org/a/vGp3YTVwFTsRIo3uz9AjO86Lj.svg)](https://asciinema.org/a/vGp3YTVwFTsRIo3uz9AjO86Lj)
