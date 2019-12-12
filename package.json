@@ -1,6 +1,6 @@
 {
-  "name": "frontend-project-lvl1-bt-123",
-  "version": "1.0.0",
+  "name": "fproject-lvl1",
+  "version": "1.0.1",
   "description": "frontend-project-lvl1",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,7 @@
     "brain-even": "dist/bin/brain-even.js"
   },
   "dependencies": {
+    "@hexlet/pairs": "^1.0.10",
     "make": "^0.8.1",
     "readline-sync": "^1.4.10"
   },
