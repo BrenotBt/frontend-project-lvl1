@@ -36,7 +36,7 @@ export default (task, generateGameData) =>
 
         const userAnswer = readlineSync.question('Your answer: ');
         if (answer !== userAnswer) {
-            console.log(`${askName} is wrong answer ;(. Correct answer was '${answer}'.`);
+            console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${answer}".`);
             console.log(`Let's try again, ${askName}`);
             return step(firstRound);
         }
