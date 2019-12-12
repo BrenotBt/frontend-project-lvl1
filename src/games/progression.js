@@ -6,32 +6,37 @@
 
 import exec from '..';
 import random from '../randomArbitary';
-import iseven from '../iseven';
 import { cons, car, cdr } from '@hexlet/pairs';
 
 const task = 'What number is missing in the progression?';
-const maxInt = 10;
 
+const minStart = 0;
+const maxStart = 10;
+const minInd = 2;
+const maxInd = 10;
+const minLen = 10;
+const maxLen = 20;
 
 const getGameData = () => {
-    let start = random(0,maxInt);
-    const ind = random(2,maxInt);
-    const len = random(10,20);
-    const qind = random(2,len-1);
+    let start = random(minStart,maxStart);
+    const ind = random(minInd,maxInd);
+    const len = random(minLen,maxLen);
+    const qind = random(minInd,len-1);
 
-    let q = [];
+    let question = [];
     let answer = '';
+
     for(let i=0; i<len; i++){
         if(qind === i) {
             answer = String(start);
-            q.push('..');
+            question.push('..');
         }else{
-            q.push(String(start));
+            question.push(String(start));
         }
         start += ind;
     }
 
-    return cons(q.join(' '), answer);
+    return cons(question.join(' '), answer);
 }
 
 export default () => exec(task, getGameData);

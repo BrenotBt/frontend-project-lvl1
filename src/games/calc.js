@@ -11,6 +11,7 @@ import { cons, car, cdr } from '@hexlet/pairs';
 
 const task = 'What is the result of the expression?';
 const maxInt = 10;
+const operatorCount = 3;
 
 const getOperator = (ind) => {
     switch (ind) {
@@ -25,26 +26,26 @@ const getOperator = (ind) => {
     return null;
 }
 
-const getAnswer = (p1,p2,o) => {
-    switch (o) {
+const getAnswer = (piont1,piont2,operator) => {
+    switch (operator) {
         case "+":
-            return p1 + p2;
+            return piont1 + piont2;
         case "-":
-            return p1 - p2;
+            return piont1 - piont2;
         case "*":
-            return p1 * p2;
+            return piont1 * piont2;
         default: break;
     }
     return null;
 }
 
 const getGameData = () => {
-    const p1 = random(maxInt);
-    const p2 = random(maxInt);
-    const o = getOperator(random(3))
+    const piont1 = random(maxInt);
+    const piont2 = random(maxInt);
+    const operator = getOperator(random(operatorCount));
 
-    const question = `${p1} ${o} ${p2}`;
-    const answer = getAnswer(p1,p2,o)
+    const question = `${piont1} ${operator} ${piont2}`;
+    const answer = getAnswer(piont1,piont2,operator);
 
     return cons(question, String(answer));
 }
