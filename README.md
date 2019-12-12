@@ -5,16 +5,16 @@ Frontend Level 1
 [![Build Status](https://travis-ci.org/BrenotBt/frontend-project-lvl1.svg?branch=master)](https://travis-ci.org/BrenotBt/frontend-project-lvl1)
 
 ## Brain Even
-[![asciicast](https://asciinema.org/a/vGp3YTVwFTsRIo3uz9AjO86Lj.svg)](https://asciinema.org/a/vGp3YTVwFTsRIo3uz9AjO86Lj)
+[![asciicast](https://asciinema.org/a/IJNwtZLVWSLty0dgWNKVDidM2.svg)](https://asciinema.org/a/IJNwtZLVWSLty0dgWNKVDidM2)
 
 ## Brain Calc
-[![asciicast](https://asciinema.org/a/2sHKrASGmCShoYKN9WQStId62.svg)](https://asciinema.org/a/2sHKrASGmCShoYKN9WQStId62)
+[![asciicast](https://asciinema.org/a/KDlPGKDV8Unrs3kImgJZbuKPe.svg)](https://asciinema.org/a/KDlPGKDV8Unrs3kImgJZbuKPe)
 
 ## Brain Gcd
-[![asciicast](https://asciinema.org/a/zDhOlz5T7fAkRhVgOZfMXUYHM.svg)](https://asciinema.org/a/zDhOlz5T7fAkRhVgOZfMXUYHM)
+[![asciicast](https://asciinema.org/a/aMKQvduXO9r5rRysA6PwHfQBR.svg)](https://asciinema.org/a/aMKQvduXO9r5rRysA6PwHfQBR)
 
 ## Brain Progression
-[![asciicast](https://asciinema.org/a/9y5zr8TXNQsp3ysMmkqkeCToL.svg)](https://asciinema.org/a/9y5zr8TXNQsp3ysMmkqkeCToL)
+[![asciicast](https://asciinema.org/a/Sk9YnKWeiPWG6IcXURoGpmJL5.svg)](https://asciinema.org/a/Sk9YnKWeiPWG6IcXURoGpmJL5)
 
 ## Brain Prime
-[![asciicast](https://asciinema.org/a/SccOzmKX1AYO7oX3OtfZmIB4k.svg)](https://asciinema.org/a/SccOzmKX1AYO7oX3OtfZmIB4k)
+[![asciicast](https://asciinema.org/a/AawKqWm8GdVjO38rrG0xU8LX5.svg)](https://asciinema.org/a/AawKqWm8GdVjO38rrG0xU8LX5)
