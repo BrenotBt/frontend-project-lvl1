@@ -15,10 +15,10 @@ const maxInt = 100;
 const getGameData = () => {
     const question = random(maxInt);
     let answer = 'yes';
-    if (question < 3){
+    if (question > 2){
         for (let i = 3; i < question; i += 2) {
             if (question % i === 0) {
-                let answer = 'no';
+                answer = 'no';
                 break;
             }
         }
