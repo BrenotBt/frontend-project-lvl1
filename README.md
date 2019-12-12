@@ -12,3 +12,6 @@ Frontend Level 1
 
 ## Brain Gcd
 [![asciicast](https://asciinema.org/a/zDhOlz5T7fAkRhVgOZfMXUYHM.svg)](https://asciinema.org/a/zDhOlz5T7fAkRhVgOZfMXUYHM)
+
+## Brain Progression
+[![asciicast](https://asciinema.org/a/9y5zr8TXNQsp3ysMmkqkeCToL.svg)](https://asciinema.org/a/9y5zr8TXNQsp3ysMmkqkeCToL)
