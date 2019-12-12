@@ -15,3 +15,6 @@ Frontend Level 1
 
 ## Brain Progression
 [![asciicast](https://asciinema.org/a/9y5zr8TXNQsp3ysMmkqkeCToL.svg)](https://asciinema.org/a/9y5zr8TXNQsp3ysMmkqkeCToL)
+
+## Brain Prime
+[![asciicast](https://asciinema.org/a/SccOzmKX1AYO7oX3OtfZmIB4k.svg)](https://asciinema.org/a/SccOzmKX1AYO7oX3OtfZmIB4k)
