@@ -9,3 +9,6 @@ Frontend Level 1
 
 ## Brain Calc
 [![asciicast](https://asciinema.org/a/2sHKrASGmCShoYKN9WQStId62.svg)](https://asciinema.org/a/2sHKrASGmCShoYKN9WQStId62)
+
+## Brain Gcd
+[![asciicast](https://asciinema.org/a/zDhOlz5T7fAkRhVgOZfMXUYHM.svg)](https://asciinema.org/a/zDhOlz5T7fAkRhVgOZfMXUYHM)
