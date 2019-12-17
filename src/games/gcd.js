@@ -1,5 +1,3 @@
-#!C:/nodejs/node
-
 /**
  * Created by Tolstenko Alexander on 12.12.2019.
  */
@@ -9,7 +7,6 @@ import random from '../random';
 import { cons, car, cdr } from '@hexlet/pairs';
 
 const task = 'Find the greatest common divisor of given numbers.';
-const maxInt = 1000;
 
 const getAnswer = (p1,p2) =>  {
     while (p1 && p2) {
@@ -20,8 +17,8 @@ const getAnswer = (p1,p2) =>  {
 }
 
 const getGameData = () => {
-    const p1 = random(maxInt);
-    const p2 = random(maxInt);
+    const p1 = random();
+    const p2 = random();
 
     const question = `${p1} ${p2}`;
     const answer = getAnswer(p1,p2);

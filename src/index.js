@@ -1,5 +1,3 @@
-#!C:/nodejs/node
-
 /**
  * Created by Tolstenko Alexander on 05.12.2019.
  */

@@ -1,9 +1,7 @@
-#!C:/nodejs/node
-
 /**
- * Created by Tolstenko Alexander on 06.12.2019.
+ * Created by Tolstenko Alexander on 12.12.2019.
  */
 
-const getRandomInt = (max) => Math.floor(Math.random() * Math.floor(max));
+const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 
-export default (max) => getRandomInt(max);
+export default (min=0, max=100) => getRandomInt(min,max);

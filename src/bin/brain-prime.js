@@ -1,4 +1,4 @@
-#!C:/nodejs/node
+#! /usr/bin/env node
 
 /**
  * Created by Tolstenko Alexander on 12.12.2019.

@@ -1,42 +1,40 @@
-#!C:/nodejs/node
-
 /**
  * Created by Tolstenko Alexander on 12.12.2019.
  */
 
 import exec from '..';
-import random from '../randomArbitary';
+import random from '../random';
 import { cons, car, cdr } from '@hexlet/pairs';
 
 const task = 'What number is missing in the progression?';
+const progressionLength = 10;
 
-const minStart = 0;
-const maxStart = 10;
-const minInd = 2;
-const maxInd = 10;
-const minLen = 10;
-const maxLen = 20;
-
-const getGameData = () => {
-    let start = random(minStart,maxStart);
-    const ind = random(minInd,maxInd);
-    const len = random(minLen,maxLen);
-    const qind = random(minInd,len-1);
-
-    let question = [];
-    let answer = '';
-
-    for(let i=0; i<len; i++){
-        if(qind === i) {
-            answer = String(start);
-            question.push('..');
-        }else{
-            question.push(String(start));
+const getQuestion = (startValue, step, hiddenElementIndex) => {
+    const iter = (start, question, limit) => {
+        if(limit === progressionLength){
+            return question;
         }
-        start += ind;
+
+        start += step;
+        if(limit === hiddenElementIndex)
+            question += ' ..';
+        else
+            question += ` ${start}`;
+        return iter(start, question, limit + 1);
     }
 
-    return cons(question.join(' '), answer);
+    return iter(startValue, String(startValue), 1);
+}
+
+const getGameData = () => {
+    const hiddenElementIndex = random(1, progressionLength - 1);
+    const startValue = random();
+    const step = random();
+
+    const question = getQuestion(startValue, step, hiddenElementIndex);
+    const answer = startValue + step * hiddenElementIndex;
+
+    return cons(question, String(answer));
 }
 
 export default () => exec(task, getGameData);
