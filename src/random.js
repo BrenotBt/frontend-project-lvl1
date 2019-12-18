@@ -4,4 +4,4 @@
 
 const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 
-export default (min=0, max=100) => getRandomInt(min,max);
+export default (min = 0, max = 100) => getRandomInt(min, max);

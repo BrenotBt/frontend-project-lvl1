@@ -10,6 +10,9 @@ publish:
 	npm publish --dry-run
 
 lint:
-	npx eslint src .
+	npx eslint .
+
+babel:
+	npx babel src --out-dir dist
 
 .PHONY: test
