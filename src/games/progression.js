@@ -9,8 +9,8 @@ import random from '../random';
 const task = 'What number is missing in the progression?';
 const progressionLength = 10;
 
-const getQuestion = (startValue, step, hiddenElementIndex) => {
-  const iter = (start, question, limit) => {
+const getQuestion = (startValue, step, hiddenElementIndex, progressionLength) => {
+  const iter = (start, question = '', limit = 0) => {
     if (limit === progressionLength) {
       return question;
     }
@@ -22,18 +22,18 @@ const getQuestion = (startValue, step, hiddenElementIndex) => {
     return iter(start + step, `${question} ${start + step}`, limit + 1);
   };
 
-  return iter(startValue, String(startValue), 1);
+  return iter(startValue);
 };
 
-const getGameData = () => {
-  const hiddenElementIndex = random(1, progressionLength - 1);
+const getProgression = () => {
+  const hiddenElementIndex = random(0, progressionLength - 1);
   const startValue = random();
-  const step = random();
+  const step = random(1, 5);
 
-  const question = getQuestion(startValue, step, hiddenElementIndex);
+  const question = getQuestion(startValue, step, hiddenElementIndex, progressionLength);
   const answer = startValue + step * hiddenElementIndex;
 
   return cons(question, String(answer));
 };
 
-export default () => exec(task, getGameData);
+export default () => exec(task, getProgression);

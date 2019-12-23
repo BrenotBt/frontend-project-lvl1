@@ -2,6 +2,4 @@
  * Created by Tolstenko Alexander on 12.12.2019.
  */
 
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min)) + min;
-
-export default (min = 0, max = 100) => getRandomInt(min, max);
+export default (min = 1, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;

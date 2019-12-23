@@ -11,7 +11,7 @@ const maxInt = 10;
 
 const getOperators = () => cons('+', cons('-', cons('*', null)));
 
-const getLen = (list) => {
+const getLength = (list) => {
   const iter = (step, ind) => {
     if (cdr(step) === null) {
       return ind;
@@ -52,7 +52,7 @@ const getGameData = () => {
   const piont2 = random(0, maxInt);
 
   const operators = getOperators();
-  const operatorIndex = random(0, getLen(operators) + 1);
+  const operatorIndex = random(0, getLength(operators) + 1);
   const operator = getOperator(operators, operatorIndex);
 
   const question = `${piont1} ${operator} ${piont2}`;

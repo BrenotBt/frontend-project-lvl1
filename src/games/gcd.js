@@ -30,7 +30,7 @@ const getAnswer = (value1, value2) => {
   return getAnswer(value1, remainder);
 };
 
-const getGameData = () => {
+const getGcd = () => {
   const p1 = random();
   const p2 = random();
 
@@ -40,4 +40,4 @@ const getGameData = () => {
   return cons(question, String(answer));
 };
 
-export default () => exec(task, getGameData);
+export default () => exec(task, getGcd);

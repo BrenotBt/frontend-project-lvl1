@@ -2,7 +2,6 @@
   "name": "fproject-lvl1",
   "version": "1.0.1",
   "description": "frontend-project-lvl1",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cross-env NODE_ENV=production babel src --out-dir dist --source-maps inline",

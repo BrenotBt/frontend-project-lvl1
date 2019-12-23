@@ -4,6 +4,20 @@ Frontend Level 1
 
 [![Build Status](https://travis-ci.org/BrenotBt/frontend-project-lvl1.svg?branch=master)](https://travis-ci.org/BrenotBt/frontend-project-lvl1)
 
+## Compile progect
+    Run the command in terminal
+    1. make install
+    2. make babel
+    
+## Start games
+    Run the command in terminal
+    
+    1. brain-even
+    2. brain-calc
+    3. brain-gcd
+    4. brain-progression
+    5. brain-prime
+
 ## Brain Even
 [![asciicast](https://asciinema.org/a/IJNwtZLVWSLty0dgWNKVDidM2.svg)](https://asciinema.org/a/IJNwtZLVWSLty0dgWNKVDidM2)
 
