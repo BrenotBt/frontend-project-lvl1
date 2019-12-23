@@ -10,7 +10,7 @@ const task = 'What number is missing in the progression?';
 const progressionLength = 10;
 
 const getQuestion = (startValue, step, hiddenElementIndex, progressionLength) => {
-  const iter = (start, question = '', limit = 0) => {
+  const iter = (start, question = '', limit = 1) => {
     if (limit === progressionLength) {
       return question;
     }
@@ -28,7 +28,7 @@ const getQuestion = (startValue, step, hiddenElementIndex, progressionLength) =>
 const getProgression = () => {
   const hiddenElementIndex = random(0, progressionLength - 1);
   const startValue = random();
-  const step = random(1, 5);
+  const step = random();
 
   const question = getQuestion(startValue, step, hiddenElementIndex, progressionLength);
   const answer = startValue + step * hiddenElementIndex;
